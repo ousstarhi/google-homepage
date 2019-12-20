@@ -1,0 +1,341 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    }
+
+
+header {
+    position: relative;
+    height: 55px;
+    margin-top: 18px;
+
+}
+.inline-block {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header a img {
+    left: 20px;
+    width: 92px;
+}
+
+header form {
+    left: 150px;
+}
+
+header form input {
+    border: solid 0.5px #8080804f;
+    width: 640px;
+    height: 44px;
+    border-radius: 29px;
+    background-image: url(../images/search.svg), url(../images/iconfinder_microphone_1608550.svg);
+    background-position: 600px, 560px;
+    background-repeat: no-repeat;
+    background-size: 4%, 3.5%;
+    padding-left: 20px;
+}
+
+header form input:focus {
+    outline: none;
+}
+
+nav.login {
+    right: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+nav.login ul li a img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+nav.search-menu {
+    border-bottom: #80808087 solid 0.5px;
+    font-size: 14px;
+}
+
+nav.search-menu ul {
+    position: relative;
+    left: 150px;
+    width: 640px;
+    display: inline-block;
+}
+
+nav.search-menu ul li a {
+    display: inline-block;
+    padding: 10px 10px;
+    color: gray;
+}
+
+nav.search-menu ul li:nth-child(1) a svg {
+    position: relative;
+    top: 4px;
+}
+
+nav.search-menu ul li svg {
+    padding-right: 3px;
+}
+
+nav.search-menu ul li:nth-child(2) a svg, nav.search-menu ul li:nth-child(3) a svg, nav.search-menu ul li:nth-child(4) a svg {
+    padding-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+nav.search-menu ul li:nth-child(5) a svg {
+    position: relative;
+    top: 2px;
+}
+
+.relative-left {
+    position: relative;
+    left: 120px;
+}
+
+main#body-results {
+    width: 640px;
+    position: relative;
+    left: 150px;
+}
+
+p, .second-link {
+    padding-left: 18px;
+}
+
+.number, .description {
+    color: gray;
+    font-size: 14px;
+}
+
+
+.border {
+    border: 1px solid #8080802e;
+    border-radius: 10px;
+}
+
+.border p {
+    border-bottom: 1px solid #8080802e;
+    margin: 0;
+    padding: 13px 0 13px 15px;
+}
+
+.border p:first-child {
+    font-size: 20px;
+}
+
+.border p:last-child {
+    border-bottom: none;
+}
+
+p.arrow-down {
+    background-image: url(../images/iconfinder_arrow_down2_1814082.svg);
+    background-repeat: no-repeat;
+    background-position: 600px 6px;
+    background-size: 5%;
+}
+
+p.main-link {
+    margin: 20px 0 1px 0;
+}
+
+p.main-link a {
+    color: #323292;
+    font-size: 20px;
+}
+
+p.main-link a:visited {
+    color: #323292;
+}
+
+.second-link::after {
+    display: inline-block;
+    content: '';
+    background-image: url(../images/iconfinder_ic_arrow_drop_down_48px_352021.svg);
+    background-size: 20px 20px;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 6px;
+}
+
+.second-link, .second-link:visited {
+    color: green;
+}
+
+p.description {
+    margin: 3px 0 30px 0;
+    line-height: 20px;
+}
+
+p.feedback {
+    margin: 5px 10px 0 0;
+    position: relative;
+    left: 545px;
+    font-style: italic;
+    font-size: 13px;
+    display: inline-block;
+}
+
+p.feedback a, p.feedback a:visited {
+    color: gray;
+}
+
+div.video {
+    margin-bottom: 30px;
+}
+
+p.fontvideo {
+    font-size: 20px;
+}
+
+div.video-content {
+    border: 1px #d8d6d6 solid;
+    width: 198px;
+    height: 280px;
+    position: relative;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+div.video-content:nth-child(2) {
+    left: 18px;
+}
+
+div.video-content:nth-child(3) {
+    left: 32px;
+}
+
+iframe {
+    width: 198px;
+    height: 116px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+p.video-title {
+    padding: 12px 0 0 0;
+    width: 149px;
+    margin: auto;
+}
+
+p.video-title a {
+    padding: 12px 0 50px 0;
+    color: #323292;
+}
+
+p.main-link a:hover, p.video-title a:hover {
+    text-decoration: underline;
+}
+
+.video-footer {
+    position: absolute;
+    top: 240px;
+    left: 24.5px;
+}
+
+.video-footer p {
+    width: 149px;
+    margin: 0 auto 4px auto;
+    padding: 0;
+    font-size: 14px;
+    color: #757272;
+}
+
+.green {
+    color: rgb(39, 179, 44);
+}
+
+.related p {
+    font-size: 20px;
+}
+
+.related ul {
+    padding-left: 18px;
+    display: inline-block;
+}
+
+.related li {
+    display: list-item;
+    line-height: 24px;
+}
+
+.related li a {
+    color: #323292;
+}
+
+.related li a:hover {
+    text-decoration: underline;
+}
+
+.pages img {
+    display: block;
+    margin: 30px auto 30px auto;
+}
+
+footer {
+    background-color: #f2f2f2;
+    position: relative;
+}
+
+footer p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    padding-left: 20px;
+    margin-left: 0px;
+    border-bottom: #80808075 solid 0.5px;
+    color: gray;
+    font-size: 14px;
+}
+
+footer ul {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+ul.marketing {
+    padding-left: 0;
+    margin-left: 13px;
+}
+
+ul.privacy {
+    margin-right: 13px;
+    position: absolute;
+    right: 15px;
+}
+
+footer li {
+    padding: 0 5px;
+}
+
+a.foot-link, a.foot-link:visited {
+    color: gray;
+    font-size: 14px;
+}
